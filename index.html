@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/timeliner.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Zikr</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Daily</a></li>
+                <li><a href="#">Monthly</a></li>
+                <li><a href="#">Yearly</a></li>
+                <!-- Add more menu items as needed -->
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div id="timeline" class="timeline-container">
+        <div class="timeline-wrapper">
+                <h2 class="timeline-time">5.00 a.m</h2>
+
+                <dl class="timeline-series">
+
+                        <dt class="timeline-event" id="event01"><a>Wake-Up</a></dt>
+                        <dd class="timeline-event-content" id="event01EX">
+                                <p> - Ucap Alhamdulillah</p>
+                                <p> - Istighfar</p>
+                        </dd>
+
+                        <dt class="timeline-event" id="event02"><a>Solat Sunat</a></dt>
+                        <dd class="timeline-event-content" id="event02EX">
+                                <p>Tahajjud 2 Rakaat</p>
+                                <p>Taubat 2 Rakaat</p>
+                                <p>Witir 3 Rakaat</p>
+
+                        </dd>
+
+                </dl>
+        </div>
+        <div class="timeline-wrapper">
+                <h2 class="timeline-time">6.00 a.m</h2>
+
+                <dl class="timeline-series">
+
+                        <dt class="timeline-event" id="event03"><a>Subuh Berjemaah di masjid</a></dt>
+                        <dd class="timeline-event-content" id="event03EX">
+                                <p>Sunat Subuh</p>
+                                <p>Solat Subuh</p>
+                                <p>Recite al-quran</p>
+                        </dd>
+
+                </dl>
+        </div>
+        <div class="timeline-wrapper">
+            <h2 class="timeline-time">7.00 a.m</h2>
+            <dl class="timeline-series">
+
+                    <dt class="timeline-event" id="event04"><a>Aktiviti Sunnah 1</a></dt>
+                    <dd class="timeline-event-content" id="event04EX">
+                            <p>Sunat Isyraq (selepas matahari terbit)</p>
+                            <p>Zikr pagi</p>
+                            <p>Surah Yasin</p>
+                    </dd>
+
+            </dl>
+    </div>
+    <br class="clear">
+</div>    
+
+<script>
+        $(document).ready(function() {
+                $.timeliner({});
+        });
+</script>    
+</body>
+</html>
