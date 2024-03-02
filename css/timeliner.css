@@ -1,11 +1,12 @@
 /* ============ HEADER ============= */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #EADFB4;
+    color: black;
     padding: 10px;
     text-align: center;
     font-family: "Share Tech Mono", monospace;
     font-size: 20px;
+    
 }
 
 nav ul {
@@ -18,6 +19,9 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 10px;
+    font-size: 20px;
+    
+   
 }
 
 nav a {
@@ -27,6 +31,8 @@ nav a {
 
 
 /* ============ TIMELINER.JS ============= */
+
+
 .timeline-container {
   border-left: 2px solid #ccc;
   margin: 20px auto;
@@ -57,10 +63,11 @@ nav a {
   /*font-family: Palatino, "Times New Roman", Times, serif;*/
   font-family: "Share Tech Mono", monospace;
   cursor: pointer;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: 400;
   margin: 0 0 10px;
   padding: 4px 4px 4px 20px;
+  background-color: #9BB0C1;
 }
 .timeline-wrapper h2 span {
   background: #ccc;
@@ -84,7 +91,7 @@ nav a {
   background: url(../images/timeline_decade_tick.gif) left center no-repeat;
   clear: left;
   font-family: "Share Tech Mono", monospace;
-  font-size: 1.6em;
+  font-size: 1.3em;
   list-style-type: none;
   line-height: 1.2em;
   margin: 0 0 12px;
